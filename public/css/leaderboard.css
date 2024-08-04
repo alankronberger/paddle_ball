@@ -1,0 +1,53 @@
+#title {
+    text-align: center;
+    font-size: 80px;
+
+}
+
+#company{
+    display: inline-block;
+}
+
+#logout{
+    float: right;
+}
+
+#menu {
+    display: block;
+    text-align: center;
+    background-color: rgb(224, 24, 24);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#menu p {
+    padding-left: 100px;
+    padding-right: 100px;
+    margin: auto;
+    display: inline-block;
+    text-align: center;
+    font: 20px Impact;
+}
+#menu a {
+    color : black;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+#leaderboard{
+    display : grid;
+    grid-template-columns: 2fr 2fr;
+}
+
+#name {
+    text-align: left;
+}
+
+#score{
+    text-align: left;
+}
+
+
+ul {
+    list-style-type: none;
+}

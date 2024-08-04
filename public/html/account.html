@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Account</title>
+    <link rel="stylesheet" type="text/css" href="../css/account.css">
+</head>
+<body>
+    <script src="../js/account.js"></script>
+    <header id='title'>
+        <div id = "company">
+            Skull Splitting Productions
+        </div>
+        <div id = "logout">
+            <button id = "logoutB">Logout</button>
+        </div>
+    </header>
+    <section id = "menu">
+        <p>
+            <a href = "http://www.ssproductions.tech">Home</a>
+        </p>
+        <p>
+            <a href = "http://www.ssproductions.tech/leaderboard">LeaderBoard</a>
+        </p>
+        <p>
+            <a href = "http://www.ssproductions.tech/account">Account</a>
+        </p>
+    </section>
+    <section id = "info">
+        <div id = "username">
+            <div id = "user">
+                Username :
+            </div>
+            <form id="change_username">
+                <p>
+                    Change Username
+                </p>
+                <label for="new_username">New Username</label>
+                <input type="text" id="new_username">
+                <br>
+                <button id="submit-button">Submit</button>
+            </form>
+        </div>
+        <div id = "password">
+            <p>
+                Change Password
+            </p>
+            <form id="change_password">
+                <label for="old_password">Old Password</label>
+                <input type="password" id="old_password">
+                <br>
+                <label for="new_password">New Password</label>
+                <input type="password" id="new_password">
+                <br>
+                <label for="confirmPassword">Confirm Password</label>
+                <input type="password" id="confirmPassword">
+                <br>
+                <button id="submit-button">Submit</button>
+            </form>
+        </div>
+        <div id = "user_colors">
+            <p>
+                Chat Color
+            </p>
+            <div id = "buttons">
+                <form id = "colors">
+                    <div>
+                        <input type = "radio" id = "black" name = "color" value = "black">
+                        <label for = "color1">Black</label>
+                    </div>
+                    <div>
+                        <input type = "radio" id = "red" name = "color" value = "red">
+                        <label for = "color2">Red</label>
+                    </div>
+                    <div>
+                        <input type = "radio" id = "blue" name = "color" value = "blue">
+                        <label for = "color3">Blue</label>
+                    </div> 
+                    <div>
+                        <input type = "radio" id = "pink" name = "color" value = "pink">
+                        <label for = "color4">Pink</label>
+                    </div> 
+                    <div>
+                        <input type = "radio" id = "green" name = "color" value = "green">
+                        <label for = "color5">Green</label>
+                    </div> 
+                    <div>
+                        <input type = "radio" id = "purple" name = "color" value = "purple">
+                        <label for = "color6">Purple</label>
+                    </div> 
+                </form>
+            </div>
+            <p>
+                Paddles
+            </p>
+            <div id = "buttons">
+                <form id = "paddles">
+                    <div>
+                        <input type = "radio" id = "pgreen" name = "paddle" value = "pgreen">
+                        <label for = "paddle5"><img src= "../html/assets/paddle_green.png" alt = "Green"/></label>
+                    </div> 
+                    <div>
+                        <input type = "radio" id = "pyellow" name = "paddle" value = "pyellow">
+                        <label for = "paddle1"><img src= "../html/assets/paddle_yellow.png" alt = "Yellow"/></label>
+                    </div>
+                    <div>
+                        <input type = "radio" id = "pred" name = "paddle" value = "pred">
+                        <label for = "paddle2"><img src= "../html/assets/paddle_red.png" alt = "Red"/></label>
+                    </div>
+                    <div>
+                        <input type = "radio" id = "porange" name = "paddle" value = "porange">
+                        <label for = "paddle3"><img src= "../html/assets/paddle_orange.png" alt = "Orange"/></label>
+                    </div> 
+                    <div>
+                        <input type = "radio" id = "ppink" name = "paddle" value = "ppink">
+                        <label for = "paddle4"><img src= "../html/assets/paddle_pink.png" alt = "Pink"/></label>
+                    </div> 
+                </form>
+            </div>
+        </div>
+        <div id ="delete">
+            <button type = "button" id ="deleteButton">Delete Account</button>
+        </div>
+    </section>
+    
+</body>
+</html>

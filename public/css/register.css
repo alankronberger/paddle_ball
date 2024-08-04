@@ -1,0 +1,23 @@
+#form {
+    display: block;
+    text-align: center;
+}
+
+#register_form {
+    display: inline-block;
+    text-align: center;
+    margin-top: auto;
+    margin-right: auto;
+}
+
+label {
+    padding-bottom: 10px;
+    width : 150px;
+    display : inline-block;
+    text-align: left;
+}
+
+h1 {
+    text-align: center;
+    font : 100px Impact;
+}

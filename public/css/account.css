@@ -1,0 +1,71 @@
+#title {
+    text-align: center;
+    font-size: 80px;
+
+}
+
+#company{
+    display: inline-block;
+}
+
+#logout{
+    float: right;
+}
+
+#menu {
+    display: block;
+    text-align: center;
+    background-color: rgb(224, 24, 24);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#menu p {
+    padding-left: 100px;
+    padding-right: 100px;
+    margin: auto;
+    display: inline-block;
+    text-align: center;
+    font: 20px Impact;
+}
+#menu a {
+    color : black;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+#username, #password, #user_colors {
+    display: block;
+    text-align: center;
+}
+
+#user {
+    text-align: left;
+    margin-left: 42%;
+}
+
+#change_username, #change_password, #colors {
+    display: inline-block;
+    text-align: center;
+    margin-top: auto;
+    margin-right: auto;
+}
+
+input, p{
+    text-align: center;
+}
+
+label {
+    padding-bottom: 10px;
+    width : 150px;
+    display : inline-block;
+    text-align: left;
+}
+
+#buttons {
+    text-align: center;
+}
+
+#delete{
+    text-align: center;
+}
